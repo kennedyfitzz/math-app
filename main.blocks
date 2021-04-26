@@ -1,0 +1,52 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="U%~6NX^tv$jkcz2kR~:V">Player</variable><variable type="KIND_SpriteKind" id="Jp^UaY5m%#y0zdBXyjlh">Projectile</variable><variable type="KIND_SpriteKind" id="t5:n+ZHj)E]r0(ZyVOA^">Food</variable><variable type="KIND_SpriteKind" id="!icUT7c~u|2v,Bvkd$VY">Enemy</variable><variable id="Rhw(Zw^y[u+.82IH.lfD">Tip guy</variable><variable id="A;a!xDoA/lEExfBBiLf^">tip percentage</variable><variable id="-AaQ:,mJ0n0D!R5JV!-!">mySprite</variable><variable id="fSVU/~skTN)`,E0Zmp~d">tip total</variable><variable id="ep(zt0ILZ28fhvQpexpL">dollar amount</variable><variable id="f2{tqQ1p=4P,40v?t0a*">percentage guy</variable><variable id="o!i/Xw5q;!18(z[lEiA{">Total guy</variable><variable id="w/:y~a#W5gk6i/jit0[5">total overall guy</variable><variable id="DUgX[#-QdFVQnyIHM=)_">total overall</variable></variables><block type="pxt-on-start" id="[#?g22CvnCPh1)Cl.}rc" x="10" y="-850"><statement name="HANDLER"><block type="variables_set" id="kZ@{kE;EiM_8#t4_rD,;"><field name="VAR" id="o!i/Xw5q;!18(z[lEiA{">Total guy</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="swia$wp7J(yTOuEyR=e="><value name="img"><shadow type="screen_image_picker" id="VKe:4Lz3$myC2vV`zN7("><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 2 2 2 2 2 . . . . . . 
+. . . . 2 2 . . . 2 . . . . . . 
+. . . . 2 2 . . . 2 . . . . . . 
+. . . . . . . . . 2 . . . . . . 
+. . . . . . . . . 2 . . . . . . 
+. . . . . . . 2 2 2 . . . . . . 
+. . . . . . . 2 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 2 2 2 . . . . . . . 
+. . . . . . 2 2 2 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"VKe:4Lz3$myC2vV`zN7("}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="pKi=rN@QvO[(X2VG+gJ0"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="FTg,j+FWe~#.~DOv43fv"><field name="VAR" id="Rhw(Zw^y[u+.82IH.lfD">Tip guy</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Kex2PG9me7.fLGl2SYiE"><value name="img"><shadow type="screen_image_picker" id="Mt,Wj(FS(HA|Hs|=xEFM"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . . . 7 . . . . . . . . 
+. . . . . 7 7 7 7 7 . . . . . . 
+. . . . . 7 . 7 . 7 . . . . . . 
+. . . . . 7 . . . . . . . . . . 
+. . . . . 7 . . . . . . . . . . 
+. . . . . 7 7 7 7 . . . . . . . 
+. . . . . . . . 7 . . . . . . . 
+. . . . . . . . 7 . . . . . . . 
+. . . . 7 . 7 . 7 . . . . . . . 
+. . . . 7 7 7 7 7 . . . . . . . 
+. . . . . . 7 . . . . . . . . . 
+. . . . . . 7 . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Mt,Wj(FS(HA|Hs|=xEFM"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=":16P[6ej0t|iA}hd{5uY"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="Z*i%^e:!eZC0gkedP-DB"><field name="VAR" id="f2{tqQ1p=4P,40v?t0a*">percentage guy</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="DI;IA(^cs!4sWO.Doizc"><value name="img"><shadow type="screen_image_picker" id=".W5.qhnFgh!E*,iNW@d8"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . f f . . . . 
+. . . f f f . . . . f . . . . . 
+. . . f f f . . . f f . . . . . 
+. . . f f f . . . f . . . . . . 
+. . . . . . . . f f . . . . . . 
+. . . . . . . f f . . . . . . . 
+. . . . . f f f . . f f f . . . 
+. . . . f f . . . . f f f . . . 
+. . . . . . . . . . f f f . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":".W5.qhnFgh!E*,iNW@d8"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="#=y`TxqIu^Hrv1%kr)Bc"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="m?P=+Gq.UT=JQ9.o;78."><value name="color"><shadow type="colorindexpicker" id="o:8Ru:yx#s}5?nz|0j,G"><field name="index">1</field></shadow></value><next><block type="spritesetpos" id="_^Q0*T7O(y+XD~E_6Fg_"><value name="sprite"><block type="variables_get" id=")1*[_V#F$n12CqTXwRfJ"><field name="VAR" id="f2{tqQ1p=4P,40v?t0a*">percentage guy</field></block></value><value name="x"><shadow type="positionPicker" id="nfB}-rTGo{paBqMOVhei"><field name="index">120</field></shadow></value><value name="y"><shadow type="positionPicker" id="-BLSeV*eaJ{G#Ym-KRwu"><field name="index">71</field></shadow></value><next><block type="spritesetpos" id="h{zpw[nY9n+*BB[mruy3"><value name="sprite"><block type="variables_get" id="Jgxc3+Yzc26~b_%RAzDa"><field name="VAR" id="Rhw(Zw^y[u+.82IH.lfD">Tip guy</field></block></value><value name="x"><shadow type="positionPicker" id="gYi?Lmke]}|uq,=)EQ)P"><field name="index">24</field></shadow></value><value name="y"><shadow type="positionPicker" id=".!1F:rwbjF2QvgI;Kr;b"><field name="index">70</field></shadow></value><next><block type="spritesetpos" id="`mEhtBeq7GAx^3a/3M#y"><value name="sprite"><block type="variables_get" id="R4HLFkopOgK:4}fH7@fz"><field name="VAR" id="o!i/Xw5q;!18(z[lEiA{">Total guy</field></block></value><value name="x"><shadow type="positionPicker" id="UW(J[^n=8y$,T|[1RWw/"><field name="index">73</field></shadow></value><value name="y"><shadow type="positionPicker" id="tK^0O*r`;fN0Nft-_6A."><field name="index">30</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="y)GM`aVe1^M?DluHYnHV" x="10" y="-350"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesay" id=".T}4(:k`oJuIf0IfpZ}8"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="Kjc]L,6s]^):2rJ^TLzX"><field name="VAR" id="o!i/Xw5q;!18(z[lEiA{">Total guy</field></block></value><value name="text"><shadow type="text"><field name="TEXT"/></shadow><block type="variables_get" id="7^q%KoH$D*8q`#)QtzGT"><field name="VAR" id="fSVU/~skTN)`,E0Zmp~d">tip total</field></block></value></block></statement></block><block type="gameinterval" id="1PYpoDthsX9}6rPnCPIF" x="10" y="-210"><value name="period"><shadow type="timePicker" id="|MrrK6.r-`n!1OYur;.z"><field name="ms">500</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="1=iKWe6lQ`VdE`a/vRI`"><field name="VAR" id="fSVU/~skTN)`,E0Zmp~d">tip total</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="e0#fCCsWqB7sS^dHR_CX"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="7AA(cCwb6i;[F-h./~Lb"><field name="VAR" id="A;a!xDoA/lEExfBBiLf^">tip percentage</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="ZqcvzM)S7y1rPuV+$[Ep"><field name="VAR" id="ep(zt0ILZ28fhvQpexpL">dollar amount</field></block></value></block></value><next><block type="spritesay" id="r)vd,SCW5V6`O$5D({`3"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="%v9bU~Pkp(X)X/%X_8gn"><field name="VAR" id="Rhw(Zw^y[u+.82IH.lfD">Tip guy</field></block></value><value name="text"><shadow type="text"><field name="TEXT"/></shadow><block type="variables_get" id="CG][%`qull3}Kg]:75o?"><field name="VAR" id="ep(zt0ILZ28fhvQpexpL">dollar amount</field></block></value><next><block type="spritesay" id="RWUcaqaWw(Ycuh!Vy6Ss"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="ED9FU/fO=}8NEuSy7]sW"><field name="VAR" id="f2{tqQ1p=4P,40v?t0a*">percentage guy</field></block></value><value name="text"><shadow type="text"><field name="TEXT"/></shadow><block type="variables_get" id="L7fxQudzrRTLz+NRdvX4"><field name="VAR" id="A;a!xDoA/lEExfBBiLf^">tip percentage</field></block></value></block></next></block></next></block></statement></block><block type="keyonevent" id=".$-Nv6jw9EF[AbM[1RN{" x="10" y="50"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_change" id="$gkY%DqO+bo%UM*kX).H"><field name="VAR" id="A;a!xDoA/lEExfBBiLf^">tip percentage</field><value name="VALUE"><shadow type="math_number" id="T]nim[i#DD|41_tD;js7"><field name="NUM">0.1</field></shadow></value></block></statement></block><block type="keyonevent" id="$[1gN|UzOn37N|+_A:`^" x="10" y="210"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_change" id="]YjDnlF_%!j;+=QkK{~j"><field name="VAR" id="ep(zt0ILZ28fhvQpexpL">dollar amount</field><value name="VALUE"><shadow type="math_number" id="h`cPtwtT,d.(m_Om6!V)"><field name="NUM">1</field></shadow></value></block></statement></block></xml>
